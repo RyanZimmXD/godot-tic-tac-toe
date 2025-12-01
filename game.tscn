@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://xa8xyu6q2tib"]
+
+[ext_resource type="PackedScene" uid="uid://b3hfj53v3ty2p" path="res://players_turn.tscn" id="1_80nbo"]
+[ext_resource type="PackedScene" uid="uid://bg172lhgo8h4m" path="res://button_options.tscn" id="2_e2o6t"]
+[ext_resource type="PackedScene" uid="uid://mv5pfguehtal" path="res://basic_ui.tscn" id="3_feb5d"]
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="player_turn_label" parent="." instance=ExtResource("1_80nbo")]
+layout_mode = 1
+offset_left = -1.0
+offset_top = -26.0
+offset_bottom = -26.0
+
+[node name="basic_ui" parent="." instance=ExtResource("3_feb5d")]
+visible = false
+layout_mode = 1
+offset_left = -60.0
+offset_right = -60.0
+
+[node name="button_options" parent="." instance=ExtResource("2_e2o6t")]
+layout_mode = 1
+offset_left = -3.0
+offset_top = 18.0
+offset_right = -2.0
+offset_bottom = 18.0

@@ -1,0 +1,104 @@
+[gd_scene load_steps=3 format=3 uid="uid://xa8xyu6q2tib"]
+
+[ext_resource type="PackedScene" uid="uid://b3hfj53v3ty2p" path="res://players_turn.tscn" id="1_80nbo"]
+[ext_resource type="Script" uid="uid://dqnqlkc7cl081" path="res://button_logic.gd" id="2_e2o6t"]
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Players turn" parent="." instance=ExtResource("1_80nbo")]
+layout_mode = 1
+offset_left = -1.0
+offset_top = -26.0
+offset_bottom = -26.0
+
+[node name="Button5" type="Button" parent="."]
+layout_mode = 0
+offset_left = 632.0
+offset_top = 98.0
+offset_right = 790.0
+offset_bottom = 260.0
+theme_override_font_sizes/font_size = 100
+text = "X"
+script = ExtResource("2_e2o6t")
+
+[node name="Button6" type="Button" parent="."]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 99.0
+offset_right = 610.0
+offset_bottom = 261.0
+theme_override_font_sizes/font_size = 100
+text = "X"
+script = ExtResource("2_e2o6t")
+
+[node name="Button7" type="Button" parent="."]
+layout_mode = 0
+offset_left = 269.0
+offset_top = 99.0
+offset_right = 427.0
+offset_bottom = 261.0
+theme_override_font_sizes/font_size = 100
+text = "X"
+script = ExtResource("2_e2o6t")
+
+[node name="Button8" type="Button" parent="."]
+layout_mode = 0
+offset_left = 268.0
+offset_top = 276.0
+offset_right = 426.0
+offset_bottom = 438.0
+theme_override_font_sizes/font_size = 100
+text = "X"
+script = ExtResource("2_e2o6t")
+
+[node name="Button9" type="Button" parent="."]
+layout_mode = 0
+offset_left = 274.0
+offset_top = 457.0
+offset_right = 432.0
+offset_bottom = 619.0
+theme_override_font_sizes/font_size = 100
+text = "X"
+script = ExtResource("2_e2o6t")
+
+[node name="Button10" type="Button" parent="."]
+layout_mode = 0
+offset_left = 455.0
+offset_top = 457.0
+offset_right = 613.0
+offset_bottom = 619.0
+theme_override_font_sizes/font_size = 100
+text = "X"
+script = ExtResource("2_e2o6t")
+
+[node name="Button11" type="Button" parent="."]
+layout_mode = 0
+offset_left = 455.0
+offset_top = 281.0
+offset_right = 613.0
+offset_bottom = 443.0
+theme_override_font_sizes/font_size = 100
+text = "X"
+script = ExtResource("2_e2o6t")
+
+[node name="Button12" type="Button" parent="."]
+layout_mode = 0
+offset_left = 635.0
+offset_top = 278.0
+offset_right = 793.0
+offset_bottom = 440.0
+theme_override_font_sizes/font_size = 100
+text = "X"
+script = ExtResource("2_e2o6t")
+
+[node name="Button13" type="Button" parent="."]
+layout_mode = 0
+offset_left = 635.0
+offset_top = 456.0
+offset_right = 793.0
+offset_bottom = 618.0
+theme_override_font_sizes/font_size = 100
+text = "X"
+script = ExtResource("2_e2o6t")

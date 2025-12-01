@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=3 uid="uid://mv5pfguehtal"]
+
+[ext_resource type="Script" uid="uid://dqnqlkc7cl081" path="res://button_logic.gd" id="1_gu42b"]
+
+[node name="basic_ui" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="restart_button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 316.0
+offset_top = 257.0
+offset_right = 860.0
+offset_bottom = 393.0
+text = "Restart"
+script = ExtResource("1_gu42b")
+
+[node name="resume_button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 318.0
+offset_top = 80.0
+offset_right = 862.0
+offset_bottom = 216.0
+text = "Resume"
+script = ExtResource("1_gu42b")
+
+[node name="exit_button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 319.0
+offset_top = 436.0
+offset_right = 863.0
+offset_bottom = 572.0
+text = "Exit"
+script = ExtResource("1_gu42b")
+
+[connection signal="pressed" from="restart_button" to="restart_button" method="_on_restart_button_pressed"]
+[connection signal="pressed" from="resume_button" to="restart_button" method="_on_resume_button_pressed"]
+[connection signal="pressed" from="exit_button" to="restart_button" method="_on_exit_button_pressed"]

@@ -1,0 +1,100 @@
+[gd_scene load_steps=2 format=3 uid="uid://bg172lhgo8h4m"]
+
+[ext_resource type="Script" uid="uid://bh52csdu5mtg2" path="res://board_buttons.gd" id="1_qe3me"]
+
+[node name="button_options" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button1" type="Button" parent="."]
+layout_mode = 0
+offset_left = 250.0
+offset_top = 66.0
+offset_right = 408.0
+offset_bottom = 228.0
+theme_override_font_sizes/font_size = 100
+script = ExtResource("1_qe3me")
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 449.0
+offset_top = 66.0
+offset_right = 607.0
+offset_bottom = 228.0
+theme_override_font_sizes/font_size = 100
+script = ExtResource("1_qe3me")
+index = 1
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 645.0
+offset_top = 76.0
+offset_right = 803.0
+offset_bottom = 238.0
+theme_override_font_sizes/font_size = 100
+script = ExtResource("1_qe3me")
+index = 2
+
+[node name="Button4" type="Button" parent="."]
+layout_mode = 0
+offset_left = 258.0
+offset_top = 260.0
+offset_right = 416.0
+offset_bottom = 422.0
+theme_override_font_sizes/font_size = 100
+script = ExtResource("1_qe3me")
+index = 3
+
+[node name="Button5" type="Button" parent="."]
+layout_mode = 0
+offset_left = 458.0
+offset_top = 259.0
+offset_right = 616.0
+offset_bottom = 421.0
+theme_override_font_sizes/font_size = 100
+script = ExtResource("1_qe3me")
+index = 4
+
+[node name="Button6" type="Button" parent="."]
+layout_mode = 0
+offset_left = 643.0
+offset_top = 265.0
+offset_right = 801.0
+offset_bottom = 427.0
+theme_override_font_sizes/font_size = 100
+script = ExtResource("1_qe3me")
+index = 5
+
+[node name="Button7" type="Button" parent="."]
+layout_mode = 0
+offset_left = 257.0
+offset_top = 448.0
+offset_right = 415.0
+offset_bottom = 610.0
+theme_override_font_sizes/font_size = 100
+script = ExtResource("1_qe3me")
+index = 6
+
+[node name="Button8" type="Button" parent="."]
+layout_mode = 0
+offset_left = 461.0
+offset_top = 451.0
+offset_right = 619.0
+offset_bottom = 613.0
+theme_override_font_sizes/font_size = 100
+script = ExtResource("1_qe3me")
+index = 7
+
+[node name="Button9" type="Button" parent="."]
+layout_mode = 0
+offset_left = 655.0
+offset_top = 452.0
+offset_right = 813.0
+offset_bottom = 614.0
+theme_override_font_sizes/font_size = 100
+script = ExtResource("1_qe3me")
+index = 8
